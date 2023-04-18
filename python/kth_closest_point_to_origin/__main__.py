@@ -30,6 +30,7 @@ class Test(unittest.TestCase):
 
     def test3(self):
         self.assertEqual(sorted(Solution().kClosest([[6,10],[-3,3],[2,5],[0,2]],3)),sorted([[2,5],[0,2],[-3,3]]))
+        
 
 
  
